@@ -1,0 +1,7 @@
+<div class="compress-image-section">
+    <img class="upload-img" src="assets/document-file-up-upload-icon-19.png" (click)="selectFile()">
+    <input type="file" style="visibility: hidden;" id="choose-file" (change)="getFile($event)" accept="image/png, image/jpeg, image/jpg, image/gif">
+    <div class="supported-format">
+        png, jpg, jpeg, gif formats are supported
+    </div>
+</div>
